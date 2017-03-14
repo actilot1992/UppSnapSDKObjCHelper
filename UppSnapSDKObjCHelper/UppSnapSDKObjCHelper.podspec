@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name    = 'UppSnapSDKObjCHelper'
-  s.version = '0.0.1'
+  s.version = '0.0.3'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'Objc Helper for UppSnapSDK'
   s.homepage = 'https://github.com/actilot1992/UppSnapSDKObjCHelper'
