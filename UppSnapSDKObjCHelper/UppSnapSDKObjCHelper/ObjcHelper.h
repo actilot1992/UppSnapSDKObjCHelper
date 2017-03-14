@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Mantle/MTLReflection.h>
 
 @interface ObjHelper : NSObject
 

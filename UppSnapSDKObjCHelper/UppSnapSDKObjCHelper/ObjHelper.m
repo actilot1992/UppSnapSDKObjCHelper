@@ -9,7 +9,6 @@
 
 #import <Foundation/Foundation.h>
 #import "ObjcHelper.h"
-#import <Mantle/MTLReflection.h>
 
 
 @implementation ObjHelper
