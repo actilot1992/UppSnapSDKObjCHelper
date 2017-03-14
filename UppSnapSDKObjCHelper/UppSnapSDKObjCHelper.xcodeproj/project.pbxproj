@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9E406950B3F0CEED3D1BD5 /* Pods_UppSnapSDKObjCHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AD099464AD071F54D6529E /* Pods_UppSnapSDKObjCHelper.framework */; };
+		60CFAA841E78236F006B2AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CFAA831E78236F006B2AC9 /* AppDelegate.swift */; };
+		60CFAA981E7823CD006B2AC9 /* ObjHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CFAA971E7823CD006B2AC9 /* ObjHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05A06EE67E7DA7E7D4FEE341 /* Pods-UppSnapSDKObjCHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UppSnapSDKObjCHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-UppSnapSDKObjCHelper/Pods-UppSnapSDKObjCHelper.release.xcconfig"; sourceTree = "<group>"; };
+		4D7D4F3E04B54B42F6DA1F81 /* Pods-UppSnapSDKObjCHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UppSnapSDKObjCHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UppSnapSDKObjCHelper/Pods-UppSnapSDKObjCHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		60CFAA801E78236F006B2AC9 /* UppSnapSDKObjCHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UppSnapSDKObjCHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CFAA831E78236F006B2AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60CFAA8F1E782370006B2AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CFAA951E7823CD006B2AC9 /* UppSnapSDKObjCHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UppSnapSDKObjCHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		60CFAA961E7823CD006B2AC9 /* ObjcHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcHelper.h; sourceTree = "<group>"; };
+		60CFAA971E7823CD006B2AC9 /* ObjHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjHelper.m; sourceTree = "<group>"; };
+		B8AD099464AD071F54D6529E /* Pods_UppSnapSDKObjCHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UppSnapSDKObjCHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CFAA7D1E78236F006B2AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9E406950B3F0CEED3D1BD5 /* Pods_UppSnapSDKObjCHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144406C8EBD9511706555AFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D4F3E04B54B42F6DA1F81 /* Pods-UppSnapSDKObjCHelper.debug.xcconfig */,
+				05A06EE67E7DA7E7D4FEE341 /* Pods-UppSnapSDKObjCHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48426907535EA9DD39C240BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8AD099464AD071F54D6529E /* Pods_UppSnapSDKObjCHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60CFAA771E78236F006B2AC9 = {
+			isa = PBXGroup;
+			children = (
+				60CFAA821E78236F006B2AC9 /* UppSnapSDKObjCHelper */,
+				60CFAA811E78236F006B2AC9 /* Products */,
+				144406C8EBD9511706555AFB /* Pods */,
+				48426907535EA9DD39C240BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60CFAA811E78236F006B2AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CFAA801E78236F006B2AC9 /* UppSnapSDKObjCHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CFAA821E78236F006B2AC9 /* UppSnapSDKObjCHelper */ = {
+			isa = PBXGroup;
+			children = (
+				60CFAA831E78236F006B2AC9 /* AppDelegate.swift */,
+				60CFAA961E7823CD006B2AC9 /* ObjcHelper.h */,
+				60CFAA971E7823CD006B2AC9 /* ObjHelper.m */,
+				60CFAA8F1E782370006B2AC9 /* Info.plist */,
+				60CFAA951E7823CD006B2AC9 /* UppSnapSDKObjCHelper-Bridging-Header.h */,
+			);
+			path = UppSnapSDKObjCHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CFAA7F1E78236F006B2AC9 /* UppSnapSDKObjCHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CFAA921E782370006B2AC9 /* Build configuration list for PBXNativeTarget "UppSnapSDKObjCHelper" */;
+			buildPhases = (
+				F35F0CBA6F500E0BDADE1BF4 /* [CP] Check Pods Manifest.lock */,
+				60CFAA7C1E78236F006B2AC9 /* Sources */,
+				60CFAA7D1E78236F006B2AC9 /* Frameworks */,
+				60CFAA7E1E78236F006B2AC9 /* Resources */,
+				E9067637CAAE57EF10B23B85 /* [CP] Embed Pods Frameworks */,
+				F6BEEC4AD599C54721957EC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UppSnapSDKObjCHelper;
+			productName = UppSnapSDKObjCHelper;
+			productReference = 60CFAA801E78236F006B2AC9 /* UppSnapSDKObjCHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CFAA781E78236F006B2AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Axel Ros Campaña";
+				TargetAttributes = {
+					60CFAA7F1E78236F006B2AC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 964QHYEA9R;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60CFAA7B1E78236F006B2AC9 /* Build configuration list for PBXProject "UppSnapSDKObjCHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60CFAA771E78236F006B2AC9;
+			productRefGroup = 60CFAA811E78236F006B2AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CFAA7F1E78236F006B2AC9 /* UppSnapSDKObjCHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CFAA7E1E78236F006B2AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9067637CAAE57EF10B23B85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UppSnapSDKObjCHelper/Pods-UppSnapSDKObjCHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35F0CBA6F500E0BDADE1BF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BEEC4AD599C54721957EC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UppSnapSDKObjCHelper/Pods-UppSnapSDKObjCHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CFAA7C1E78236F006B2AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CFAA841E78236F006B2AC9 /* AppDelegate.swift in Sources */,
+				60CFAA981E7823CD006B2AC9 /* ObjHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60CFAA901E782370006B2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60CFAA911E782370006B2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60CFAA931E782370006B2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7D4F3E04B54B42F6DA1F81 /* Pods-UppSnapSDKObjCHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 964QHYEA9R;
+				INFOPLIST_FILE = UppSnapSDKObjCHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wotbot.uppsnap.UppSnapSDKObjCHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UppSnapSDKObjCHelper/UppSnapSDKObjCHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60CFAA941E782370006B2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A06EE67E7DA7E7D4FEE341 /* Pods-UppSnapSDKObjCHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 964QHYEA9R;
+				INFOPLIST_FILE = UppSnapSDKObjCHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wotbot.uppsnap.UppSnapSDKObjCHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UppSnapSDKObjCHelper/UppSnapSDKObjCHelper-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CFAA7B1E78236F006B2AC9 /* Build configuration list for PBXProject "UppSnapSDKObjCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CFAA901E782370006B2AC9 /* Debug */,
+				60CFAA911E782370006B2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CFAA921E782370006B2AC9 /* Build configuration list for PBXNativeTarget "UppSnapSDKObjCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CFAA931E782370006B2AC9 /* Debug */,
+				60CFAA941E782370006B2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CFAA781E78236F006B2AC9 /* Project object */;
+}
